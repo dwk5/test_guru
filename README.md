@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Проект Тест-Гуру
 
-Things you may want to cover:
+Приложение для создания, управления и прохождения различных тестов.
+Пользователи(users) регистрируются, могут проходить тесты и выкладывать результаты в социальные сети. Администраторы(admins) контролируют права пользователей, создают и управляют тестами.
 
-* Ruby version
+Основные функции:
+  1. Создание и управление тестами
+  2. Аутентификация
+  3. Основные права пользователей
+  4. Прохождение тестов
+  5. Публикация результатов в социальных сетях
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Проект реализован в рамках практического задания курса RubyonRails THINKNETICA (www.thinknetica.com)
