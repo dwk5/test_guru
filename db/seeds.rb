@@ -5,37 +5,38 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-category = Category.create!([
+
+categories = Category.create!([
   { title: 'Древний мир' },
   { title: 'Средневековье' },
   { title: 'Новое время' }
 ])
 
-test = Test.create!([
-  { title: 'Даты' , category_id: 1 },
-  { title: 'События' , level: 2, category_id: 2 },
-  { title: 'Личности' , category_id: 3 },
-  { title: 'Места' , level: 3, category_id: 4 },
-  { title: 'Понятия' , category_id: 5 }
+tests = Test.create!([
+  { title: 'Даты' , category: categories[0] },
+  { title: 'События' , level: 2, category: categories[1] },
+  { title: 'Личности' , category: categories[2] },
+  { title: 'Места' , level: 3, category: categories[0] },
+  { title: 'Понятия' , category: categories[1] }
 ])
 
-question = Question.create!([
-  { body: 'Год Битвы при Марафоне?', test_id: 1 },
-  { body: 'Гражданская война в Англии в 15в.?', test_id: 2 },
-  { body: 'Император России, отменивший крепостное право?', test_id: 3 },
-  { body: 'Священный город в Древней Греции, оракул Апполона?', test_id: 4 },
-  { body: 'Массовое религиозное и общественно-политическое движение в Европе в 16 веке?', test_id: 5 }
+questions = Question.create!([
+  { body: 'Год Битвы при Марафоне?', test: tests[0] },
+  { body: 'Гражданская война в Англии в 15в.?', test: tests[1] },
+  { body: 'Император России, отменивший крепостное право?', test: tests[2] },
+  { body: 'Священный город в Древней Греции, оракул Апполона?', test: tests[3] },
+  { body: 'Массовое религиозное и общественно-политическое движение в Европе в 16 веке?', test: tests[4] }
 ])
 
-answer = Answer.create!([
-  { body: '490 г. до н.э.', correct: true, question_id: 1 },
-  { body: 'Война роз', correct: true, question_id: 2 },
-  { body: 'Александр 2', correct: true, question_id: 3 },
-  { body: 'Дельфы', correct: true, question_id: 4 },
-  { body: 'Реформация', correct: true, question_id: 5 }
+answers = Answer.create!([
+  { body: '490 г. до н.э.', correct: true, question: questions[0] },
+  { body: 'Война роз', correct: true, question: questions[1] },
+  { body: 'Александр 2', correct: true, question: questions[2] },
+  { body: 'Дельфы', correct: true, question: questions[3] },
+  { body: 'Реформация', correct: true, question: questions[4] }
 ])
 
-user = User.create!([
+users = User.create!([
   { name: 'Иван', login: 'ivan', password: 'ivan123', email: 'ivan@email.com' },
   { name: 'Мария', login: 'maria', password: 'maria123', email: 'maria@email.com' },
   { name: 'Петр', login: 'petr', password: 'petr123', email: 'petr@email.com' }
