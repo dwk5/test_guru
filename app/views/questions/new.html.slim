@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Создание нового вопроса для теста
+
+  body
+    h1
+      | Новый вопрос для теста
+    form[action="/tests/<%= params[:test_id] %>/questions" method="post"]
+      input[name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden"]
+      div
+        label[for="question-body"]
+        | Вопрос:&nbsp;
+        input#question-body[type="text" name="question[body]"]
+      p
+       |
+      input[type="submit" value="Создать"]

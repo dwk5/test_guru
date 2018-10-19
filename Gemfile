@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'rails-i18n', '~> 5.1'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem 'slim', '~> 3.0', '>= 3.0.6'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
