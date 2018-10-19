@@ -22,6 +22,7 @@ class QuestionsController < ApplicationController
 
   def destroy
     @question.destroy
+    redirect_to tests_url
   end
 
   private
