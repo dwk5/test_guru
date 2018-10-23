@@ -1,0 +1,14 @@
+<h3>Вопросы для теста &laquo;<%= @test.title %>&raquo;:</h3>
+<p>
+  <%= link_to 'Создать вопрос', new_test_question_path(@test) %>
+</p>
+<table>
+  <tr>
+    <th>Вопрос</th>
+    <th colspan="2">Действия</th>
+  </tr>
+
+ <%= render @test.questions %>
+</table>
+<p></p>
+<%= link_to "Назад", test_path(@test)%>

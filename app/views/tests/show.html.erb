@@ -1,0 +1,20 @@
+<p>
+  <strong>Title:</strong>
+  <%= @test.title %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @test.level %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @test.category.title%>
+</p>
+
+<p>
+<%= link_to 'Посмотреть вопросы', test_questions_path(@test)%>
+</p>
+
+<%= link_to 'Назад', tests_path %>
