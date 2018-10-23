@@ -1,9 +1,9 @@
 module QuestionsHelper
   def question_header(question)
     if question.persisted?
-      "Редактирование вопроса: #{question.body}"
+      "Редактировать вопрос: '#{question.body}'"
     else
-      "Создание создание вопроса: #{question.test.title}"
+      "Создание нового вопроса для теста: '#{question.test.title}'"
     end
   end
 end

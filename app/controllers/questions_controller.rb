@@ -22,11 +22,10 @@ class QuestionsController < ApplicationController
   end
 
   def edit
-
   end
 
   def update
-    if @question.ipdate(question_params)
+    if @question.update(question_params)
       redirect_to @question
     else
       render :edit
