@@ -1,0 +1,29 @@
+<p>
+  <strong>Название:</strong>
+  <%= @test.title %>
+</p>
+
+<p>
+  <strong>Уровень:</strong>
+  <%= @test.level %>
+</p>
+
+<p>
+  <strong>Категория:</strong>
+  <%= @test.category.title%>
+</p>
+
+<h3>Вопросы для теста</h3>
+<p>
+  <%= link_to 'Создать вопрос', new_test_question_path(@test) %>
+</p>
+<table>
+  <tr>
+    <th>Вопрос</th>
+    <th colspan="2">Действия</th>
+  </tr>
+
+ <%= render @test.questions %>
+</table>
+<p></p>
+<%= link_to 'Назад', tests_path %>
