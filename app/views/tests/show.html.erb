@@ -1,6 +1,6 @@
 <p>
   <strong>Название:</strong>
-  <%= @test.title %>
+  	&#171;<%= @test.title %>&#187;
 </p>
 
 <p>
@@ -10,7 +10,7 @@
 
 <p>
   <strong>Категория:</strong>
-  <%= @test.category.title%>
+  &#171;<%= @test.category.title%>&#187;
 </p>
 
 <h3>Вопросы для теста</h3>
@@ -20,7 +20,7 @@
 <table>
   <tr>
     <th>Вопрос</th>
-    <th colspan="2">Действия</th>
+    <th colspan="4">Действия</th>
   </tr>
 
  <%= render @test.questions %>
