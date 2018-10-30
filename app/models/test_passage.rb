@@ -5,6 +5,8 @@ class TestPassage < ApplicationRecord
 
   before_validation :before_validation_next_question, on: %i[create update]
 
+  SCORE_POINTS = 85
+
   def completed?
     current_question.nil?
   end
@@ -16,12 +18,12 @@ class TestPassage < ApplicationRecord
     save!
   end
 
-  def score
+  def score_percentage
     (correct_questions.to_f / count_test_questions * 100).round
   end
 
   def test_passed?
-    score >= 85
+    score_persentage >= SCORE_POINTS
   end
 
   def number_current_question
@@ -39,7 +41,7 @@ class TestPassage < ApplicationRecord
   end
 
   def correct_answer?(answer_ids)
-    correct_answers.ids.sort == Array(answer_ids).map(&:to_i).sort
+    correct_answers.ids.sort == answer_ids.map(&:to_i).sort
   end
 
   def correct_answers
