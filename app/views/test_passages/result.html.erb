@@ -1,0 +1,11 @@
+<h2>Тест &#171;<%= @test_passage.test.title %>&#187;<h2>
+
+<p>
+  <% if @test_passage.test_passed? %>
+    Ваш результат: <span class="positive"><%= @test_passage.score%>%</span>! Поздравляем, тест пройден!
+  <% else %>
+    Ваш результат: <span class="negative"><%= @test_passage.score%>%</span>! Тест не пройден, попробуйте еще раз.
+  <% end %>
+</p>
+
+<p><%= link_to 'Список тестов', tests_path %></p>
