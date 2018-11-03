@@ -2,9 +2,9 @@
 
 <p>
   <% if @test_passage.test_passed? %>
-    Ваш результат: <span class="positive"><%= @test_passage.score%>%</span>! Поздравляем, тест пройден!
+    Ваш результат: <span class="positive"><%= @test_passage.score_percentage%>%</span>! Поздравляем, тест пройден!
   <% else %>
-    Ваш результат: <span class="negative"><%= @test_passage.score%>%</span>! Тест не пройден, попробуйте еще раз.
+    Ваш результат: <span class="negative"><%= @test_passage.score_percentage%>%</span>! Тест не пройден, попробуйте еще раз.
   <% end %>
 </p>
 

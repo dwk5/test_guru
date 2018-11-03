@@ -1,0 +1,15 @@
+<nav>
+    <% if logged_in? %>
+      <ul class="nav">
+        <li>Привет, <b><%= current_user.email %></b></li>
+        <li><%= link_to 'ТестГуру', root_path %></li>
+        <li><%= link_to 'Выход', logout_path, method: :delete %></li>
+      </ul>
+    <% else %>
+      <ul class="nav">
+        <li><%= link_to 'ТестГуру', root_path %></li>
+        <li><%= link_to 'Вход', login_path %></li>
+        <li><%= link_to 'Регистрация', signup_path %></li>
+      </ul>
+    <% end %>
+</nav>
