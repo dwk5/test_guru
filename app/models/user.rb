@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  EMAIL_FORMAT = /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i
 
   has_many :test_passages
   has_many :tests, through: :test_passages
@@ -6,7 +7,7 @@ class User < ApplicationRecord
 
   has_secure_password
 
-  validates :email, presence: true, uniqueness: true, format: { with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i,
+  validates :email, presence: true, uniqueness: true, format: { with: EMAIL_FORMAT,
     on: :create, message: "проверьте формат ввода email" }
 
   def test_by_level(level)

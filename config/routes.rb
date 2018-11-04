@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'sessions/new'
-  get 'users/new'
-  delete 'sessions/destroy'
-
   root 'tests#index'
 
   get :signup, to: 'users#new'

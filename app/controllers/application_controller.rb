@@ -13,7 +13,6 @@ class ApplicationController < ActionController::Base
     end
 
     cookies[:email] = current_user&.email
-    cookies[:id] = current_user&.id
   end
 
   def current_user

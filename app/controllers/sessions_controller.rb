@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     user = User.find_by(email: params[:email].downcase)
     if user && user&.authenticate(params[:password])
       session[:user_id] = user.id
-      redirect_to cookies[:return_to]
+      redirect_to(cookies[:return_to] || tests_path)
     else
       flash.now[:alert] = 'Ошибка входа! Проверьте свой email или пароль!'
       render :new
