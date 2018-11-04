@@ -23,7 +23,7 @@ class TestPassage < ApplicationRecord
   end
 
   def test_passed?
-    score_persentage >= SCORE_POINTS
+    score_percentage >= SCORE_POINTS
   end
 
   def number_current_question
