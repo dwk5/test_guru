@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_06_041216) do
+ActiveRecord::Schema.define(version: 2018_11_07_174730) do
 
   create_table "answers", force: :cascade do |t|
     t.boolean "correct", default: false
@@ -60,8 +60,6 @@ ActiveRecord::Schema.define(version: 2018_11_06_041216) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "login"
     t.string "password"
     t.string "email", default: "", null: false
     t.datetime "created_at", null: false
@@ -80,8 +78,8 @@ ActiveRecord::Schema.define(version: 2018_11_06_041216) do
     t.datetime "confirmation_sent_at"
     t.string "unconfirmed_email"
     t.string "type", default: "User", null: false
-    t.string "first_name"
-    t.string "last_name"
+    t.string "first_name", null: false
+    t.string "last_name", null: false
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["password"], name: "index_users_on_password", unique: true
