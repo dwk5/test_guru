@@ -1,0 +1,4 @@
+<p><%= @answer.body %></p>
+<p>
+  <%= link_to 'Изменить', edit_admin_question_path(@answer.question) %> | <%= link_to 'Назад', admin_question_path(@answer.question) %>
+</p>
