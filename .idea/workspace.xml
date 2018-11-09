@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4768e1aa-e682-4fae-94d8-6ba8f896b7a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/tests_mailer/completed_test.en.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tests_mailer/completed_test.ru.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tests_mailer/completed_test.ru.text.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/activerecord.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/activerecord.ru.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/tests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/tests_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/tests_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/tests_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/questions/_question.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/questions/_question.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tests/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tests/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tests/_test.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tests/_test.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tests/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tests/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tests/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tests/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tests/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tests/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tests/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tests/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_errors.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_errors.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/test_passages/result.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/test_passages/result.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/test_passages/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/test_passages/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/_test.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tests/_test.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tests/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests_mailer/completed_test.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests_mailer/completed_test.text.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tests_mailer/completed_test.en.text.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
     </list>
@@ -57,31 +35,31 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
-          <entry key="erb" value="78" />
-          <entry key="rb" value="19" />
+          <entry key="erb" value="82" />
+          <entry key="rb" value="20" />
           <entry key="yml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="RHTML" value="78" />
-          <entry key="Ruby" value="20" />
+          <entry key="RHTML" value="82" />
+          <entry key="Ruby" value="21" />
           <entry key="YAML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="32" />
-          <entry key="erb" value="1497" />
+          <entry key="erb" value="1506" />
           <entry key="rb" value="817" />
-          <entry key="yml" value="2721" />
+          <entry key="yml" value="2806" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="RHTML" value="1497" />
+          <entry key="RHTML" value="1506" />
           <entry key="Ruby" value="849" />
-          <entry key="YAML" value="2721" />
+          <entry key="YAML" value="2806" />
         </counts>
       </usages-collector>
     </session>
@@ -91,26 +69,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/test_passages/result.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -118,8 +96,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/test_passages/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="116" selection-start-line="5" selection-start-column="116" selection-end-line="5" selection-end-column="116" />
+            <state relative-caret-position="340">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/tests/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -127,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/test_passages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -168,10 +155,10 @@
         <option value="$PROJECT_DIR$/app/views/admin/tests/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/tests/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/app/views/test_passages/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/test_passages/result.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/test_passages/show.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
       </list>
     </option>
   </component>
@@ -281,6 +268,13 @@
             <path>
               <item name="test_guru" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_guru" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="tests_mailer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_guru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_guru" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -308,7 +302,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: test_guru">
+  <component name="RunManager" selected="JavaScript Debug.1">
+    <configuration name="1" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://0.0.0.0:3000/test_passages/1">
+      <method v="2" />
+    </configuration>
     <configuration name="Development: test_guru" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="test_guru" />
@@ -409,7 +406,13 @@
       <item itemvalue="Rake.spec: test_guru" />
       <item itemvalue="Rails.Production: test_guru" />
       <item itemvalue="Rails.Development: test_guru" />
+      <item itemvalue="JavaScript Debug.1" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -428,12 +431,12 @@
       <workItem from="1541487298905" duration="18000" />
       <workItem from="1541680153577" duration="16838000" />
       <workItem from="1541736168834" duration="1372000" />
-      <workItem from="1541749347826" duration="13478000" />
+      <workItem from="1541749347826" duration="15412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38355000" />
+    <option name="totallyTimeSpent" value="40289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,23 +448,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="470" y="321" width="1400" height="1023" extended-state="0" />
+    <frame x="520" y="27" width="1400" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.18020679" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.18020679" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.1503017" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295964" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37107623" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37107623" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -607,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/questions/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/tests_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -670,31 +666,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/questions/_question.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/tests/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/tests/_test.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -708,38 +683,66 @@
     <entry file="file://$PROJECT_DIR$/app/views/admin/questions/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/questions/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/tests/_test.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/test_passages_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/test_passages/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="116" selection-start-line="5" selection-start-column="116" selection-end-line="5" selection-end-column="116" />
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/test_passages/result.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/test_passages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/tests/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/test_passages/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
         </state>
       </provider>
     </entry>
