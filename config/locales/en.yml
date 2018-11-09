@@ -6,8 +6,6 @@ en:
       test:
         create: "Create test"
         update: "Update test"
-      show:
-        update: "Next"
     label:
       test:
         title: "Title"
@@ -47,6 +45,7 @@ en:
     show:
       header: "Passing %{title} test"
       question: "Question %{question}"
+      next: "Next"
 
 
   admin:

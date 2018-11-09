@@ -6,8 +6,6 @@ ru:
       test:
         create: "Создать тест"
         update: "Обновить тест"
-      show:
-        update: "Далее"
     label:
       test:
         title: "Название"
@@ -45,6 +43,7 @@ ru:
     show:
       header: "Прохождение теста %{title}"
       question: "Вопрос %{question}"
+      next: "Далее"
 
   admin:
     tests:
