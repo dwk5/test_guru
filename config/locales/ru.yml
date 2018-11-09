@@ -1,2 +1,94 @@
 ru:
-  hello: "Привет, мир!"
+  hello: "Привет мир"
+
+  helpers:
+    submit:
+      test:
+        create: "Создать тест"
+        update: "Обновить тест"
+      show:
+        update: "Далее"
+    label:
+      test:
+        title: "Название"
+        level: "Уровень"
+        category_id: "Категория"
+    select:
+      test:
+        prompt: "Выберите:"
+
+  shared:
+    errors:
+      header:
+        few: "Обнаружено %{count} ошибки"
+        many: "Обнаружено %{count} ошибок"
+        one: "Обнаружена %{count} ошибка"
+        other: "Обнаружено %{count} ошибки"
+
+  tests:
+    index:
+      header: "Доступные тесты"
+      title: "Название"
+      level: "Уровень"
+      questions_count: "Количество вопросов"
+      action: "Действие"
+    start:
+      begin: "Начать"
+
+  test_passages:
+    result:
+      header: "Тест %{title} успешно завершен!"
+      score: "Ваш результат:"
+      positive_msg: "Поздравляем, тест пройден!"
+      negative_msg: "Тест не пройден, попробуйте еще раз."
+      tests_list: "Список тестов"
+    show:
+      header: "Прохождение теста %{title}"
+      question: "Вопрос %{question}"
+
+  admin:
+    tests:
+      show:
+        title: "Название"
+        level: "Уровень"
+        category_id: "Категория"
+        header: "Вопросы для теста."
+        new_question: "Новый вопрос"
+        question_column: "Вопрос"
+        action: "Действия"
+        edit_link: "Изменить"
+        back_link: "Назад"
+      new:
+        header: "Создание нового теста"
+        back_link: "Назад"
+      edit:
+        header: "Изменение теста:"
+        back_link: "Назад"
+      create:
+        success: "Тест успешно создан."
+      update:
+        success_update: "Тест успешно изменён."
+      index:
+        header: "Доступные тесты"
+        title: "Название"
+        level: "Уровень"
+        questions_count: "Количество вопросов"
+        action: "Действия"
+        new_test_link: "Новый тест"
+      test:
+        show_test: "Показать"
+        edit_test: "Изменить"
+        delete_test: "Удалить"
+    questions:
+      question:
+        show_question: "Показать"
+        edit_question: "Изменить"
+        delete_question: "Удалить"
+
+
+
+
+
+  tests_mailer:
+    completed_test:
+      subject: "Вы только что закончили ТестГуру тест!"
