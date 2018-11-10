@@ -1,11 +1,15 @@
-<h2>Тест &#171;<%= @test_passage.test.title %>&#187;<h2>
+<h2><%= t('.header', title: @test_passage.test.title) %><h2>
 
 <p>
   <% if @test_passage.test_passed? %>
-    Ваш результат: <span class="positive"><%= @test_passage.score_percentage%>%</span>! Поздравляем, тест пройден!
+    <%= t('.score') %>
+    <span class="positive"><%= @test_passage.score_percentage%>%!</span>
+    <%= t('.positive_msg') %>
   <% else %>
-    Ваш результат: <span class="negative"><%= @test_passage.score_percentage%>%</span>! Тест не пройден, попробуйте еще раз.
+    <%= t('.score') %>
+    <span class="negative"><%= @test_passage.score_percentage%>%!</span>!
+    <%= t('.negative_msg') %>
   <% end %>
 </p>
 
-<p><%= link_to 'Список тестов', tests_path %></p>
+<p><%= link_to t('.tests_list'), tests_path %></p>

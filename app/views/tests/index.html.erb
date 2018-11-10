@@ -1,11 +1,11 @@
-<h1>Тесты</h1>
+<h1><%= t('tests.index.header') %></h1>
 
 <table>
   <tr>
-    <th>Название</th>
-    <th>Уровень</th>
-    <th>Количество вопросов</th>
-    <th>Actions</th>
+    <th><%= t('tests.index.title') %></th>
+    <th><%= t('tests.index.level') %></th>
+    <th><%= t('tests.index.questions_count') %></th>
+    <th><%= t('tests.index.action') %></th>
   </tr>
 
  <%= render @tests %>

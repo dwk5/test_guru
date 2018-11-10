@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   #protect_from_forgery with: :exception
   before_action :configure_permitted_parameters, if: :devise_controller?
+  before_action :set_locale
 
   def after_sign_in_path_for(resource)
     flash[:notice] = "Привет, #{current_user.first_name}"
@@ -8,6 +9,14 @@ class ApplicationController < ActionController::Base
       admin_tests_path
     else
       root_path
+    end
+  end
+
+  def default_url_options
+    if I18n.locale == I18n.default_locale
+      { lang: nil }
+    else
+      { lang: I18n.locale }
     end
   end
 
@@ -21,6 +30,10 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit(:account_update) do |user|
       user.permit(:first_name, :last_name, :email, :password, :password_confirmation, :current_password)
     end
+  end
+
+  def set_locale
+    I18n.locale = I18n.locale_available?(params[:lang]) ? params[:lang] : I18n.default_locale
   end
 
 end
