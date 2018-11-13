@@ -29,12 +29,4 @@ module ApplicationHelper
     nil
   end
 
-
-
-  #def flash_messages
-   # flash.map do |key, msg|
-    #  content_tag :div, msg, id: key, class: "flash #{key}"
-    #end.join().html_safe
-  #end
-
 end
