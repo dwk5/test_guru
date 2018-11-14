@@ -1,9 +1,15 @@
-<footer>
-  <hr>
-  <p><%= current_year %></p>
-  <p>Тест-Гуру - приложение для создания, управления и выполнения тестов</p>
-  <p>Проект: <%= github_url('dwk5', 'test_guru')%></p>
-  <p>Автор: <%= github_url_author('Дмитрий Ковалев', 'dwk5')%>
-  <p><%= link_to "Учебный проект в онлайн-школе Thinknetica", "https://thinknetica.com", target: "_blank" %></p>
-  <hr>
+<footer class="navbar fixed-bottom navbar-dark bg-dark">
+
+  <span class="navbar-text">
+    Project: <%= github_url('dwk5', 'test_guru')%>
+    - приложение для создания, управления и выполнения тестов
+  </span>
+  <span class="navbar-text">
+    <%= link_to "Учебный проект в онлайн-школе Thinknetica", "https://thinknetica.com", target: "_blank" %>
+  </span>
+  <span class="navbar-text">
+    © <%= current_year %> Copiright:
+    <%= github_url_author('Дмитрий Ковалев', 'dwk5')%>
+  </span>
+
 </footer>

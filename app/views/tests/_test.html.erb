@@ -2,5 +2,5 @@
   <td><%= test.title %></td>
   <td align="center"><%= test.level %></td>
   <td align="center"><%= test.questions.size%></td>
-  <td><%= button_to t('tests.start.begin'), start_test_path(test) %></td>
+  <td><%= button_to t('tests.start.begin'), start_test_path(test), class: 'btn btn-primary' %></td>
 </tr>

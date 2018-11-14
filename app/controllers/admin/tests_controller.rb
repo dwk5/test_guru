@@ -3,6 +3,7 @@ class Admin::TestsController < Admin::BaseController
   before_action :set_test, only: %i[edit update show destroy]
 
   def index
+    flash[:notice] = "Привет, #{current_user.first_name}"
     @tests = Test.all
   end
 
