@@ -15,8 +15,6 @@ en:
       new:
         prompt: "Please select"
 
-
-
   shared:
     errors:
       header:
@@ -33,8 +31,6 @@ en:
     start:
       begin: "Start"
 
-
-
   test_passages:
     result:
       header: "The %{title} test was Completed!"
@@ -46,7 +42,9 @@ en:
       header: "Passing %{title} test"
       question: "Question %{question}"
       next: "Next"
-
+    gist:
+      success_html: "Gist was successfully created!<a href='%{gist_url}' target='_blank'>See here</a> "
+      failure: "A error occurred while saving gist"
 
   admin:
     tests:
@@ -86,9 +84,16 @@ en:
         show_question: "Show"
         edit_question: "Edit"
         delete_question: "Delete"
-
-
+    gists:
+      index:
+        question: "Question"
+        gist_link: "Gist link"
+        user_email: "User Email"
 
   tests_mailer:
     completed_test:
       subject: "You just completed the TestGuru test!"
+
+  services:
+    gist_question:
+      description: "Test question: %{title} from TestGuru"

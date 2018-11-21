@@ -29,9 +29,16 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise', '~> 4.0'
 
-# LOCALIZATION
+# NETWORKING
+gem 'faraday'
 
+# LOCALIZATION
 gem 'rails-i18n', '~> 5.1'
+
+# Octokit
+gem "octokit", "~> 4.0"
+
+gem "figaro"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
