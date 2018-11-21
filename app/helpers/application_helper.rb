@@ -1,5 +1,12 @@
 module ApplicationHelper
 
+  ALERTS = {
+      success: "alert-success",
+      error: "alert-danger",
+      alert: "alert-warning",
+      notice: "alert-info"
+  }.freeze
+
   def current_year
     Time.current.year
   end
@@ -13,18 +20,7 @@ module ApplicationHelper
   end
 
   def bootstrap_class_for_flash(flash_type)
-    case flash_type
-    when 'success'
-      'alert-success'
-    when 'error'
-      'alert-danger'
-    when 'alert'
-      'alert-warning'
-    when 'notice'
-      'alert-info'
-    else
-      flash_type.to_s
-    end
+    ALERTS[flash_type.to_sym] || flash_type.to_s
   end
 
 
