@@ -37,8 +37,4 @@ class TestPassagesController < ApplicationController
     @test_passage = TestPassage.find(params[:id])
   end
 
-  #def new_gist
-   # current_user.gists.create(question: @test_passage.current_question, gist_url: result.html)
-  #end
-
 end
