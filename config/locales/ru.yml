@@ -41,9 +41,12 @@ ru:
       negative_msg: "Тест не пройден, попробуйте еще раз."
       tests_list: "Список тестов"
     show:
-      header: "Прохождение теста %{title}"
+      header: "Прохождение теста <b>%{title}</b>"
       question: "Вопрос %{question}"
       next: "Далее"
+    gist:
+      success: "Gist успешно сохранен! <a href='%{gist_url}' target='_blank'>Посмотреть</a>"
+      failure: "Во время сохранения gist произошла ошибка"
 
   admin:
     tests:
@@ -83,11 +86,16 @@ ru:
         show_question: "Показать"
         edit_question: "Изменить"
         delete_question: "Удалить"
-
-
-
-
+    gists:
+      index:
+        question: "Вопрос"
+        gist_link: "Ссылка"
+        user_email: "Email пользователя"
 
   tests_mailer:
     completed_test:
       subject: "Вы только что закончили ТестГуру тест!"
+
+  services:
+    gist_question:
+      description: "Вопрос из теста: %{title} приложения TestGuru"
