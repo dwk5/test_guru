@@ -81,6 +81,8 @@ ru:
         show_test: "Показать"
         edit_test: "Изменить"
         delete_test: "Удалить"
+      form_inline:
+        submit: "OK"
     questions:
       question:
         show_question: "Показать"

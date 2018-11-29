@@ -1,21 +1,24 @@
-<div class="row justify-content-center mt-5">
-  <div class="col col-md-6">
+<div class="row justify-content-center mt-4">
+  <div class="col col-md-7">
     <h2 class="text-center"><%= t('.header') %></h2>
     <p>
       <%= link_to t('.new_test_link'), new_admin_test_path, class: "btn btn-info" %>
       <%= link_to 'Gist_list', admin_gists_path, class: "btn btn-primary ml-4" %>
     </p>
-    <table class="table text-center">
+
+    <%= render 'shared/errors', resource: @test %>
+
+    <table class="table">
       <thead class="thead" style="background-color: lightgray";>
         <tr>
           <th class="sort-by-title pointer">
-            <%= t('.title') %>
+            <span class="text-left ml-5"><%= t('.title') %></span>
             <%= octicon 'arrow-up', class: 'text-success hide' %>
             <%= octicon 'arrow-down', class: 'text-success hide' %>
           </th>
           <th><%= t('.level') %></th>
           <th ><%= t('.questions_count')%></th>
-          <th colspan="3"><%= t('.action') %></th>
+          <th class="text-center" colspan="3"><%= t('.action') %></th>
         </tr>
       </thead>
      <%= render @tests %>
