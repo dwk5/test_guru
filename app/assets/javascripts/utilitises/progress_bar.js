@@ -4,7 +4,7 @@ document.addEventListener('turbolinks:load', function () {
    if (progress) {
        var current = progress.dataset.current;
        var total = progress.dataset.total;
-       var range = Math.round(current/(total/100)) + "%";
+       var range = Math.round(current*100/total) + "%";
 
        var progressBar = document.querySelector('.progress-bar');
        progressBar.style.width = range;
