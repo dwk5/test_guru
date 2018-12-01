@@ -6,7 +6,7 @@
   <%= t('.question', question: @test_passage.number_current_question) %> / <%= @test_passage.count_test_questions %>
 </p>
 <%= content_tag :div, class: 'progress', data: {
-    current: @test_passage.number_current_question - 1,
+    current: @test_passage.number_current_question,
     total:  @test_passage.count_test_questions} do %>
   <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
     0%
