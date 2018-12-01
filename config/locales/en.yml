@@ -79,6 +79,8 @@ en:
         show_test: "Show"
         edit_test: "Edit"
         delete_test: "Delete"
+      form_inline:
+        submit: "OK"
     questions:
       question:
         show_question: "Show"

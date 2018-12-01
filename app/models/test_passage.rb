@@ -3,7 +3,7 @@ class TestPassage < ApplicationRecord
   belongs_to :test
   belongs_to :current_question, class_name: 'Question', optional: true
 
-  before_validation :before_validation_next_question, on: %i[create update]
+  before_validation :validation_next_question, on: %i[create update]
 
   SCORE_POINTS = 85
 
@@ -36,7 +36,7 @@ class TestPassage < ApplicationRecord
 
   private
 
-  def before_validation_next_question
+  def validation_next_question
     self.current_question = next_question
   end
 
