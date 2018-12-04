@@ -35,3 +35,9 @@ answers = Answer.create!([
   { body: 'Дельфы', correct: true, question: questions[3] },
   { body: 'Реформация', correct: true, question: questions[4] }
 ])
+
+users = User.create!([
+  { name: 'Иван', login: 'ivan', password: 'ivan123', email: 'ivan@email.com' },
+  { name: 'Мария', login: 'maria', password: 'maria123', email: 'maria@email.com' },
+  { name: 'Петр', login: 'petr', password: 'petr123', email: 'petr@email.com' }
+])
